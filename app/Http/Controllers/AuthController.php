@@ -48,6 +48,8 @@ class AuthController extends Controller
             'longitude'=>'required',
             'latitude'=>'required',
             'role_id' =>'required',
+             'donation_type_id'=>'required',
+
 
         ]);
 
