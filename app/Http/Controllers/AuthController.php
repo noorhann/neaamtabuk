@@ -47,6 +47,7 @@ class AuthController extends Controller
             'status'=>'required',
             'longitude'=>'required',
             'latitude'=>'required',
+            'role_id' =>'required',
 
         ]);
 
