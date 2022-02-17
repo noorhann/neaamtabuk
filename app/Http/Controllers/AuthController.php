@@ -44,6 +44,7 @@ class AuthController extends Controller
             'mobile' =>'required|unique:users',
             'region'=>'required|string',
             'gender'=>'required',
+            'status'=>'required',
             'longitude'=>'required',
             'latitude'=>'required',
 
